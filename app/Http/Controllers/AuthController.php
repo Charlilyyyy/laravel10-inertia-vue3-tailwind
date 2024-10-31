@@ -61,4 +61,20 @@ class AuthController extends Controller
 
         return redirect()->route('home');
     }
+
+    /**
+     * @OA\Get(
+     *      path="/users",
+     *      description="Name of the new project",
+     *      @OA\Response(
+     *          response=200,
+     *          description="All users"
+     *      )
+     * )
+     */
+    public function index()
+    {
+        $users = User::all();
+        return $this->sendResponse($users. 'All users');
+    }
 }

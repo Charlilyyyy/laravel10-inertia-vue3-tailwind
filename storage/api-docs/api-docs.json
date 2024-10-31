@@ -1,0 +1,35 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "laravel vue inertia title",
+        "description": "some desc",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "https://laravel10-inertia-vue3.test/api",
+            "description": "local server"
+        },
+        {
+            "url": "https://laravel10-inertia-vue3.test",
+            "description": "staging server"
+        },
+        {
+            "url": "https://laravel10-inertia-vue3.test",
+            "description": "production server"
+        }
+    ],
+    "paths": {
+        "/users": {
+            "get": {
+                "description": "Name of the new project",
+                "operationId": "72d65eb3ded6028ea4f16398dfe2c700",
+                "responses": {
+                    "200": {
+                        "description": "All users"
+                    }
+                }
+            }
+        }
+    }
+}

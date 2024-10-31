@@ -6,7 +6,7 @@
 - cly model runner
 - laravel passport
 - tailwind
-- envato
+- laravel swagger
 
 - import often use as global component so no need to import everytime, eg : import { Link,Head } from '@inertiajs/vue3'
 
